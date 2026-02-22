@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.env
+credentials.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Old/intermediate files
+*_enriched.csv
+*_matched.csv
+*_fixed.csv
+*_cleaned.csv
+calendar_attendees.csv
+imessage_contacts.csv
+imessage_contacts_names_first.csv
+network*.html
+
+# Keep only the final outputs
+!network_final.html
+!calendar_attendees_apollo.csv
+!imessage_contacts_matched_with_messages_real_messages_only_fixed_names_only.csv
+
+# OS
+.DS_Store
